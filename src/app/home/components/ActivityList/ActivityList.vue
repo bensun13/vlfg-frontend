@@ -19,9 +19,7 @@ export default {
     };
   },
   mounted() {
-    console.log('this runs when the activity list is mounted');
-
-    this.activities = require('./activity.json');
+    axios.get('https://lfg-stub.herokuapp.com/activity/1713/groups').then((response) => (this.activities = response));
     console.log(this.activities);
   },
   components: {

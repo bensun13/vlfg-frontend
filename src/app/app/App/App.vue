@@ -5,13 +5,15 @@
     <vue-navigation-progress :is-navigating="isNavigating" />
 
     <vue-nav-bar>
+      <!--
       <vue-button slot="right" v-if="isAuthenticated === false" color="primary" @click="showLoginModal = true">
         Login
-      </vue-button>
+      </vue-button>      
 
       <vue-button slot="right" v-if="isAuthenticated" color="primary" @click="onLogout">
         Logout
       </vue-button>
+      -->
     </vue-nav-bar>
 
     <router-view :class="$style.content" />
