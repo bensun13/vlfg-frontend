@@ -100,8 +100,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
-      "pre-commit": "vuesion parallel \"vuesion prettier --staged\" \"npm run lint\" \"npm run test\""
+      "pre-commit": "vuesion parallel \"vuesion prettier --staged\" \"npm run lint\" "
     }
   },
   "jest": {
