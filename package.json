@@ -47,7 +47,7 @@
     "@vuesion/webpack": "^3.1.2",
     "accept-language": "3.0.18",
     "animejs": "3.1.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "body-parser": "1.19.0",
     "commitlint": "8.3.4",
     "compression": "1.7.4",
